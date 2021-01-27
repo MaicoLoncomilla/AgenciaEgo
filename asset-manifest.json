@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/AgenciaEgo/static/css/main.96d23a0e.chunk.css",
-    "main.js": "/AgenciaEgo/static/js/main.1910f69e.chunk.js",
-    "main.js.map": "/AgenciaEgo/static/js/main.1910f69e.chunk.js.map",
+    "main.js": "/AgenciaEgo/static/js/main.78945634.chunk.js",
+    "main.js.map": "/AgenciaEgo/static/js/main.78945634.chunk.js.map",
     "runtime-main.js": "/AgenciaEgo/static/js/runtime-main.bc75d054.js",
     "runtime-main.js.map": "/AgenciaEgo/static/js/runtime-main.bc75d054.js.map",
     "static/js/2.416dc8c3.chunk.js": "/AgenciaEgo/static/js/2.416dc8c3.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.bc75d054.js",
     "static/js/2.416dc8c3.chunk.js",
     "static/css/main.96d23a0e.chunk.css",
-    "static/js/main.1910f69e.chunk.js"
+    "static/js/main.78945634.chunk.js"
   ]
 }
