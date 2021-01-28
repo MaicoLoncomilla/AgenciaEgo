@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.containerSectionFilter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 18px;
+    margin-top: 80px;
+    position: relative;
+}
+.containerButtonsModels{
+    display: flex;
+}
+.containerButtonsModels button{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1;
+    letter-spacing: 0.08px;
+    font-weight: 100;
+    color: #373737;
+    cursor: pointer;
+    background-color: transparent;
+    margin: 0 10px;
+
+}
+.containerCars{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.carsModel {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 236px;
+    margin: 0 23px;
+    margin-top: 73px;
+    width: 100%;
+    height: 100%;
+}
+.carsModel:hover h1 {
+    color: #eb0a1e;
+}
+.carsModel img {
+    width: 268px;
+    height: 132px;
+    margin: 22px 0 0;
+    object-fit: contain;
+}
+.carsModel:hover .buttonLink {
+    visibility: visible;
+}
+.buttonLink{
+    visibility: hidden;
+    width: 152px;
+    height: 34px;
+    margin: 0 auto;
+    border-radius: 30px;
+    background-color: #000;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.07px;
+    line-height: 1.77;
+}
+.containerCarousel {
+    background-color: #f7f7f7;
+    padding: 33px 0 49px;
+    margin-top: 80px;
+}
+.containerOrdenBy {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    padding-right: 10px;
+}
+.containerOrdenByActivate {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    background-color: #fff;
+    top: 30px;
+    border-radius: 3px;
+    right: 0;
+    box-shadow: 2px 8px 20px 0 rgba(0,0, 0, 0.15);
+}
+.containerOrdenByActivate button {
+    width: 300px;
+    outline: none;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid #d8d8d8;
+    text-align: left;
+    padding-left: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.1px;
+    font-weight: normal;
+    font-size: 14px;
+}
+.containerOrdenByActivate button:hover {
+    background-color: rgba(209, 214, 214, 0.2);
+}
+.menuFilterMin850{
+    display: flex;
+    padding-left: 10px;
+}
+.menuFilterMax850{
+    display: none;
+}
+
+@media (max-width: 850px) {
+    .menuFilterMax850{
+        display: flex;
+        padding-left: 10px;
+    }
+    .menuFilterArrow{
+        display: flex;
+        align-items: center;
+    }
+    .containerButtonsModels{
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        background-color: #fff;
+        z-index: 1;
+        top: 30px;
+        left: 0px;
+        box-shadow: 2px 8px 20px 0 rgba(0,0, 0, 0.15);
+        border-radius: 3px;
+        padding: 0px;
+        width: 158px;
+    }
+    .containerButtonsModels button {
+        border-radius: 0px;
+        width: 100%;
+        text-align: left;
+        padding: 0px 10px;
+        border-bottom: 1px solid #d8d8d8;
+        font-size: 10px;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: -0.1px;
+        color: #191919;
+        line-height: 3.5;
+        margin: 0;
+    }
+    .containerOrdenByActivate{
+        right: 10px;
+    }
+    .containerOrdenByActivate button {
+        line-height: 3.5;
+        font-size: 10px;
+        width: 158px;
+        padding-left: 10px;
+    }
+    .menuFilterMin850{
+        display: none;
+    }
+}
+@media (max-width: 425px) {
+    .containerSectionFilter{
+        margin: 0;
+    }
+
+}
